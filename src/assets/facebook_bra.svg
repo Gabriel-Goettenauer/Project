@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="facebook_bra" transform="translate(-468.5 -8707.5)">
+    <rect id="Retângulo_18403" data-name="Retângulo 18403" width="48" height="48" transform="translate(468.5 8707.5)" fill="#0abb98" opacity="0"/>
+    <g id="Grupo_14831" data-name="Grupo 14831" transform="translate(17947 -1969.295)">
+      <path id="Elipse_2372" data-name="Elipse 2372" d="M17,1A16,16,0,0,0,5.686,28.314,16,16,0,0,0,28.314,5.686,15.9,15.9,0,0,0,17,1m0-1A17,17,0,1,1,0,17,17,17,0,0,1,17,0Z" transform="translate(-17471 10683.295)" fill="#fff"/>
+      <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M9.117,8.438l.417-2.715h-2.6V3.961a1.357,1.357,0,0,1,1.53-1.467H9.643V.183A14.441,14.441,0,0,0,7.541,0,3.314,3.314,0,0,0,3.994,3.654V5.723H1.609V8.438H3.994V15H6.929V8.438Z" transform="translate(-17459.609 10693.295)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
