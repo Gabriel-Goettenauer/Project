@@ -1,4 +1,5 @@
 <template>
+
   <div class="row">
     <div class="col s12 m7">
       <div class="dog-card">
@@ -39,17 +40,20 @@ export default {
   justify-content: space-between;
   height: 300px;
   width: 200px;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 40px;
+  margin: 190px 60px -30px 60px;
   position: relative;
-  /* Adicionado */
+}
+
+.dog-card:hover{
+  transform: scale(1.05);
 }
 
 .card-image img {
   width: 226px;
-  height: 160px;
+  height: 170px;
 }
 
 .text1 {
@@ -61,10 +65,8 @@ export default {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Faz o botão estender-se por toda a largura do card */
   display: flex;
   justify-content: center;
-  /* Centraliza o botão horizontalmente */
 }
 
 .bt {
@@ -76,5 +78,10 @@ export default {
   height: 45px;
   background: #ECB11F;
   color: white;
+}
+
+.bt:hover{
+  cursor: pointer;
+  background: #FFC107;
 }
 </style>

@@ -1,16 +1,4 @@
-<!-- src/components/DogFavorites.vue -->
-<template>
-  <div class="favorites">
-    <h2>Favorites</h2>
-    <div v-if="favorites.length">
-      <div v-for="dog in favorites" :key="dog.id" class="favorite-item">
-        <img :src="dog.url" alt="dog image" />
-        <button @click="$emit('remove-favorite', dog.id)">Remove</button>
-      </div>
-    </div>
-    <p v-else>No favorites added.</p>
-  </div>
-</template>
+
 
 <script>
 export default {

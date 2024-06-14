@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import FormAdoption from '@/views/FormAdoption.vue';
 import SeuFavorito from '@/views/SeuFavorito.vue';
+import Congratulations from '../views/Congratulations.vue';
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/favorites',
     name: 'favorites',
     component: SeuFavorito
+  },
+  {
+    path: '/Congratulations',
+    name: 'Congratulations',
+    component: Congratulations
   }
 
   
