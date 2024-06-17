@@ -8,7 +8,7 @@
           <h5 class="text1">{{ dogType }} <span v-if="dogGender === 'male'">♂️</span><span v-else>♀️</span></h5>
         </div>
         <div class="button-container">
-          <button class="bt" @click="$emit('add-favorite', dog)">Favoritar dog</button>
+          <button class="bt" @click="$emit('add-favorite', dog)">Adotar dog</button>
         </div>
       </div>
     </div>

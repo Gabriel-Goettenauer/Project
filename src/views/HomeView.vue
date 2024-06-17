@@ -9,7 +9,8 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><router-link to="/formAdoption">Adote já</router-link></li>
           <li><router-link to="/">Quem somos</router-link></li>
-          <li><a href="/favorites">Favoritos</a></li>
+          <li><a  @click="toggleLoader" href="/favorites">Favoritos</a></li>
+          <div class="loader" v-if="isLoading"></div>
         </ul>
       </div>
     </nav>
@@ -185,6 +186,7 @@ export default {
       favorites: JSON.parse(localStorage.getItem("favorites")) || [],
       currentPage: 1,
       itemsPerPage: 8,
+      isLoading: false,
     };
   },
   mounted() {
@@ -214,6 +216,7 @@ export default {
         console.error(error);
       }
     },
+    
     addFavorite(dog) {
       if (!this.favorites.some((fav) => fav.id === dog.id)) {
         this.favorites.push(dog);
